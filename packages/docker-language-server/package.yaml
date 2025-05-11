@@ -1,0 +1,16 @@
+---
+name: docker-language-server
+description: docker language server by docker
+homepage: https://github.com/docker/docker-language-server
+licenses:
+  - Apache-2.0
+languages:
+  - Go
+categories:
+  - LSP
+
+source:
+  id: pkg:github/docker/docker-language-server@v0.6.0#cmd/cmd/docker-language-server
+
+bin:
+  docker-language-server: golang:docker-language-server
