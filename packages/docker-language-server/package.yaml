@@ -10,7 +10,7 @@ categories:
   - LSP
 
 source:
-  id: pkg:github/docker/docker-language-server@v0.6.0#cmd/docker-language-server
+  id: pkg:golang/github/docker/docker-language-server@v0.6.0#cmd/docker-language-server
 
 bin:
   docker-language-server: golang:docker-language-server
